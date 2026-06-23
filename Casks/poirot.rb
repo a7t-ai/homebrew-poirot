@@ -1,11 +1,11 @@
 cask "poirot" do
-  version "26.03.5"
-  sha256 "3c869f4159cc091f9484b6fa57b60e9eb3ff7c2e0cf2537b7159c30df1f1918d"
+  version "25.06.1"
+  sha256 "598e12491907b3be93e7b2c1b77eb451161f76bc2c42b356a149ad61d5ada673"
 
-  url "https://github.com/LeonardoCardoso/poirot/releases/download/v#{version}/Poirot-v#{version}.dmg"
+  url "https://github.com/a7t-ai/poirot/releases/download/v#{version}/Poirot-v#{version}.dmg"
   name "Poirot"
   desc "Native macOS companion for Claude Code"
-  homepage "https://github.com/LeonardoCardoso/poirot"
+  homepage "https://github.com/a7t-ai/poirot"
 
   depends_on macos: ">= :sequoia"
 
